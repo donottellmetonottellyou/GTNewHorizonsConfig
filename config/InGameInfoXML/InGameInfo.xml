@@ -155,7 +155,7 @@
             </mul>
             <str>°N,</str>
           </concat>
-          <str>{chunkx}°S,</str>
+          <str>{chunkz}°S,</str>
         </min>
       </op>
       <str> {gold}</str>
