@@ -45,13 +45,22 @@
       <str>{white}, {darkaqua}</str>
       <op>
         <str>eq</str>
-        <mod>
-          <divi>
-            <var>day</var>
-            <num>28</num>
-          </divi>
+        <modi>
+          <round>
+            <div>
+              <sub>
+                <var>day</var>
+                <modi>
+                  <var>day</var>
+                  <num>28</num>
+                </modi>
+              </sub>
+              <num>28</num>
+            </div>
+            <num>0</num>
+          </round>
           <num>12</num>
-        </mod>
+        </modi>
         <num>0</num>
         <num>1</num>
         <num>2</num>
